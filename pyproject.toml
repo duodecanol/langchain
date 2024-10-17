@@ -55,6 +55,7 @@ langchain-mistralai = { path = "libs/partners/mistralai", develop = true }
 langgraph = { git = "https://github.com/langchain-ai/langgraph.git", subdirectory = "libs/langgraph" }
 jupyter = "^1.1.1"
 click = "^8.1.7"
+aiofiles = "^24.1.0"
 faiss-cpu = "^1.7.4"
 wikipedia = "^1.4.0"
 pypdf = "^5.0.0"
