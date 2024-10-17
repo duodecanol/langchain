@@ -58,7 +58,7 @@ jupyter = "^1.1.1"
 click = "^8.1.7"
 aiofiles = "^24.1.0"
 faiss-cpu = "^1.7.4"
-unstructured = { version = "^0.15.12", python = "<3.13" }
+unstructured = { version = "^0.15.12", extras = ["md"], python = "<3.13" }
 wikipedia = "^1.4.0"
 pypdf = "^5.0.0"
 vcrpy = "^6.0.1"
