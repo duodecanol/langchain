@@ -20,6 +20,7 @@ NOTEBOOKS_NO_CASSETTES = [
 NOTEBOOKS_NO_EXECUTION = [
     "docs/docs/how_to/add_scores_retriever.ipynb",  # Requires pinecone instance
     "docs/docs/how_to/chat_model_rate_limiting.ipynb",  # Slow (demonstrates rate limiting)
+    "docs/docs/how_to/document_loader_directory.ipynb",  # Deliberately raises error
     "docs/docs/tutorials/graph.ipynb",  # Requires local graph db running
     "docs/docs/tutorials/local_rag.ipynb",  # Local LLMs
     "docs/docs/tutorials/query_analysis.ipynb",  # Requires youtube_transcript_api
