@@ -58,6 +58,7 @@ jupyter = "^1.1.1"
 click = "^8.1.7"
 aiofiles = "^24.1.0"
 faiss-cpu = "^1.7.4"
+grandalf = "^0.8"
 rank-bm25 = "^0.2.2"
 unstructured = { version = "^0.15.12", extras = ["md"], python = "<3.13" }
 wikipedia = "^1.4.0"
