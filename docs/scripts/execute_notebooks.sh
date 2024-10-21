@@ -27,7 +27,7 @@ export -f execute_notebook
 
 # Determine the list of notebooks to execute
 if [ "$WORKING_DIRECTORY" == "all" ]; then
-    notebooks=$(find docs/docs/tutorials -name "*.ipynb" | grep -v ".ipynb_checkpoints" | grep -vFf <(echo "$SKIP_NOTEBOOKS"))
+    notebooks=$(find docs/docs/tutorials docs/docs/how_to -name "*.ipynb" | grep -v ".ipynb_checkpoints" | grep -vFf <(echo "$SKIP_NOTEBOOKS"))
 else
     notebooks=$(find "$WORKING_DIRECTORY" -name "*.ipynb" | grep -v ".ipynb_checkpoints" | grep -vFf <(echo "$SKIP_NOTEBOOKS"))
 fi
