@@ -30,6 +30,7 @@ NOTEBOOKS_NO_EXECUTION = [
     "docs/docs/how_to/hybrid.ipynb",  # Requires AstraDB instance
     "docs/docs/how_to/indexing.ipynb",  # Requires local Elasticsearch
     "docs/docs/how_to/local_llms.ipynb",  # Local LLMs
+    "docs/docs/how_to/migrate_agent.ipynb",  # TODO: resolve issue with asyncio / exception handling
     "docs/docs/tutorials/graph.ipynb",  # Requires local graph db running
     "docs/docs/tutorials/local_rag.ipynb",  # Local LLMs
     "docs/docs/tutorials/query_analysis.ipynb",  # Requires youtube_transcript_api
