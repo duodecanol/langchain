@@ -18,7 +18,7 @@ NOTEBOOKS_NO_CASSETTES = [
 ]
 
 NOTEBOOKS_NO_EXECUTION = [
-    "docs/docs/how_to/add_scores_retriever.ipynb",  # Requires pinecone instance
+    "docs/docs/how_to/add_scores_retriever.ipynb",  # Requires Pinecone instance
     "docs/docs/how_to/chat_model_rate_limiting.ipynb",  # Slow (demonstrates rate limiting)
     "docs/docs/how_to/document_loader_directory.ipynb",  # Deliberately raises error
     "docs/docs/how_to/document_loader_pdf.ipynb",  # Local parsing section is slow
@@ -31,6 +31,7 @@ NOTEBOOKS_NO_EXECUTION = [
     "docs/docs/how_to/indexing.ipynb",  # Requires local Elasticsearch
     "docs/docs/how_to/local_llms.ipynb",  # Local LLMs
     "docs/docs/how_to/migrate_agent.ipynb",  # TODO: resolve issue with asyncio / exception handling
+    "docs/docs/how_to/qa_per_user.ipynb",  # Requires Pinecone instance
     "docs/docs/tutorials/graph.ipynb",  # Requires local graph db running
     "docs/docs/tutorials/local_rag.ipynb",  # Local LLMs
     "docs/docs/tutorials/query_analysis.ipynb",  # Requires youtube_transcript_api
